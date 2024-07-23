@@ -162,6 +162,7 @@ header{
     font-size: 24px;
     font-weight: 500;
     transform: translateX(40px);
+    transform: translateY(20px);
     position: absolute;
     top: 85%;
     left: 0;
