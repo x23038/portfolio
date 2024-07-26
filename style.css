@@ -194,6 +194,7 @@ header{
     position: absolute;
     top: 0;
     right: 0;
+    pointer-events: none;
 }
 
 
@@ -271,4 +272,10 @@ header{
 
 .do-natu {
     grid-area: do-natu;
+}
+
+/* contact */
+.column-2 .a{
+    list-style: none;
+    transform: translateX(20%);
 }
