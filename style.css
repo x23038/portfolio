@@ -277,5 +277,6 @@ header{
 /* contact */
 .column-2 {
     list-style: none;
-    transform: translateX(20%);
+    color: #000;
+    margin-right: 40%;
 }
