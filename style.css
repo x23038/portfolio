@@ -275,7 +275,7 @@ header{
 }
 
 /* contact */
-.column-2 .a{
+.column-2 {
     list-style: none;
     transform: translateX(20%);
 }
