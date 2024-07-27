@@ -262,7 +262,7 @@ header{
     display: grid;
     grid-template-rows:1fr 1fr;
     grid-template-areas:"bed" "do-natu";
-    height: 200vh;
+    height: 150vh;
 }
 
 .bed {
@@ -275,8 +275,52 @@ header{
 }
 
 /* contact */
-.column-2 {
-    list-style: none;
-    color: #000;
-    margin-right: 40%;
+
+#contact .title {
+    margin-left: 550px;
+}
+
+.contact_grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas: "contact";
+    height: 10vh;
+}
+.column-4 a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 300px;
+    position: absolute;
+    transform: translateY(100%);
+}
+
+.column-4 {
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    transform: translateX(20%);
+}
+.column-4 a:hover {
+    color:#2f4df5;
+    transition: .3s;
+}
+
+.background-black{
+    background-color: #111010;
+    width: 100%;
+    height:500px;
+}
+
+.column-4 p {
+    font-size: 15px;   
+    color: #ffffff; 
+    margin-left: 0%;
+    margin-top: 280px;
+    font-weight: 100;
+}
+
+.thankyou{
+    font-size: 46px;
+    margin-bottom: 0%;
+    margin-left: 500px;
 }
